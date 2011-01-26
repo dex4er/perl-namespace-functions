@@ -1,4 +1,7 @@
+API
 CPAN
+XS
 Piotr
 Roszatycki
-versioned
+namespace
+unexported
