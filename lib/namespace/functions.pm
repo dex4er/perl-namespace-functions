@@ -95,6 +95,8 @@ sub import {
                     keys %{ Symbol::Util::stash($caller) };
 
     $Functions{$caller} = \@functions;
+
+    return;
 };
 
 
@@ -117,6 +119,8 @@ sub unimport {
     foreach my $function (@functions) {
         Symbol::Util::delete_sub("${caller}::$function");
     };
+
+    return;
 };
 
 
