@@ -196,7 +196,7 @@ others can be deleted safely.
 
   package My::MooseClass;
 
-  use Scalar::Util 'reftype';
+  use Moose;
 
   use namespace::functions -except => 'meta';
 
